@@ -1,0 +1,22 @@
+
+/**
+ * userfox
+ */
+
+.logo[data-logo="userfox"] {
+  width: 3.462em;
+  /* (17.31/5) * (1-.12+.12) - 0 */
+}
+
+.logo[data-logo="userfox"] > * {
+  background-image: url(images/logo.svg);
+  margin: .12em 0 -.12em 0;
+}
+
+.logo[data-logo="userfox"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="userfox"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
